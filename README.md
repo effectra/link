@@ -1,4 +1,4 @@
-# Effectra\Link
+# Effectra/Link
 
 Effectra\Link is a PHP library that provides implementations of various PSR link interfaces. It offers classes such as Link, EvolvableLink, and LinkProvider, which enable you to work with hypermedia links, manage evolvable links, and retrieve links for your applications.
 
