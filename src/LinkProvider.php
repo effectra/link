@@ -55,11 +55,11 @@ class LinkProvider implements LinkProviderInterface
      * @param LinkInterface[] $links An array of LinkInterface objects
      * @return string The HTML string with links
      */
-    public function withHTML(array $links): string
+    public static function withHTML(array $links): string
     {
         $html = '';
         foreach ($links as $link) {
-            $html .= sprintf('<a href="%s">%s</a>', $link->getHref(), $link->getAttributes()['rel']);
+            $html .= sprintf('<a href="%s" rel="%s">%s</a>', $link->getHref(), join(' ', $link->getRels()), $link->getHref());
         }
         return $html;
     }

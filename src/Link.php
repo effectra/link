@@ -1,6 +1,6 @@
 <?php
 
-namespace Effectra\Http\Link;
+namespace Effectra\Link;
 
 use Psr\Link\LinkInterface;
 
