@@ -1,0 +1,22 @@
+{
+    "name": "effectra/link",
+    "description": "The Effectra Link package.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Effectra\\Link\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammed Taha",
+            "email": "info@mohammedtaha.net"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "psr/link": "^2.0"
+    },
+    "minimum-stability": "stable"
+}
